@@ -4,7 +4,7 @@ url: "https://andrewrhoden.github.io"
 baseurl: ""  # Leave empty for user/organization site
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-
+minimal_mistakes_skin: "default" 
 plugins:
   - jekyll-include-cache
 
@@ -12,3 +12,11 @@ plugins:
 markdown: kramdown
 kramdown:
   input: GFM
+
+
+ # Navigation (optional)
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/abouturl/"
