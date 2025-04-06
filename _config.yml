@@ -1,5 +1,14 @@
-title: "My Cybersecurity Portfolio"
-description: "Labs, Projects, Writeups"
-remote_theme: "mmistakes/minimal-mistakes"
+ title: "My Cybersecurity and IT Portfolio"
+description: "Labs, walkthroughs, write-ups, and hands-on demos"
+url: "https://andrewrhoden.github.io"
+baseurl: ""  # Leave empty for user/organization site
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
 plugins:
-  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Optional: some theme enhancements
+markdown: kramdown
+kramdown:
+  input: GFM
